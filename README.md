@@ -14,7 +14,7 @@ NetFramework是一个简单的iOS网络请求框架，专注于提供验证码�
 ### CocoaPods
 
 ```ruby
-pod 'NetFramework', :git => 'https://github.com/yourusername/NetFramework.git'
+pod 'NetFramework', :git => 'https://github.com/lixiuran/NetFramework.git'
 ```
 
 ### 手动安装
