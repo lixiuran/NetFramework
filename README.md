@@ -46,3 +46,24 @@ pod 'NetFramework', :git => 'https://github.com/lixiuran/NetFramework.git'
 ## 许可证
 
 NetFramework 遵循 MIT 许可证。详情见 [LICENSE](LICENSE) 文件。 
+
+
+# 更新版本号
+# 编辑NetFramework.podspec，将spec.version改为"0.1.1"
+
+# 提交更改
+git add .
+git commit -m "发布版本0.1.1"
+
+# 创建标签
+git tag 0.1.1
+
+# 推送代码和标签
+git push origin master
+git push origin 0.1.1
+
+# 验证podspec
+pod spec lint NetFramework.podspec
+
+# 发布到CocoaPods
+pod trunk push NetFramework.podspec
