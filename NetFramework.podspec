@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "NetFramework"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "iOS网络请求框架，用于发送验证码等网络操作"
   spec.description  = <<-DESC
                     NetFramework是一个简单的网络请求框架，提供了发送验证码等基本网络功能，
